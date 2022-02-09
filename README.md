@@ -1,5 +1,5 @@
 # Mirrors
-This project is made as an attempt to explore Unity's capabilities regarding the stencil buffer in the context of a Universal Render Pipeline project. It demonstrates techniques to make a mirror:
+This project demonstrates two mirror-simulation-techniques:
 1. Using a double of the scene constructed behind the mirror
 2. Using a secondary camera rendering on the mirror's mesh
 
