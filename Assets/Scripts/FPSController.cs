@@ -46,6 +46,7 @@ public class FPSController : MonoBehaviour {
 	}
 
 	void Update() {
+		Cursor.lockState = CursorLockMode.Locked;
 		if (Input.GetKeyDown(KeyCode.P)) {
 			Cursor.lockState = CursorLockMode.None;
 			Cursor.visible = true;
